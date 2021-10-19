@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  font-family: "cascadia code";
+}
+body {
+  text-align: center;
+}
+h1 {
+  font-size: 36px;
+  margin: 20px 10px;
+}
+p {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 20px 10px;
+}
+.howmany,
+.type {
+  display: block;
+  margin: 10px;
+}
+#type {
+  margin: 10px;
+  width: 50%;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 18px;
+}
+button {
+  margin: 20px;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: black;
+  color: aliceblue;
+}
+input {
+  margin: 10px;
+  width: 50%;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#results div {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+}
